@@ -1,0 +1,92 @@
+body {
+        background-image: url("photo1.jpg");
+        background-size: center;
+        background-position: center center;
+        font-family: Arial, sans-serif;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 40px auto;
+        text-align: center;
+    }
+    
+    .stopwatch {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .display {
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    #hours, #minutes, #seconds, #milliseconds {
+        font-size: 48px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    
+    button {
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        margin: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4CAF50;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #3e8e41;
+    }');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.stopwatch {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#hours, #minutes, #seconds, #milliseconds {
+    font-size: 48px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
